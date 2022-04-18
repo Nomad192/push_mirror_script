@@ -2,7 +2,8 @@
 So far only .bat (for win)
 
 ## Instruction
-Start with three arg
+Сlone this repository to your projects folder
+Run the script from the folder with your projects
 1) first - Server address
 2) second - Your git username
 3) third - Your git password
