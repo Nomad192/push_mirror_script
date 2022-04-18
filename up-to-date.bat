@@ -15,16 +15,20 @@ echo Current password	- %Git_Password%
 echo Current server		- %Git_Server%
 echo.
 
+setlocal enabledelayedexpansion
+
 for /d %%f in (%dir%\*) do (
-	cd %%f
 	echo git repo "%%~nxf":
+	push_mirror_script\sc_branchs.sh %%f
+	cd %%f
 	echo pull:
-	git pull
+	git pull --all
 	echo.
 	echo push mirror:
 	git push --mirror http://%Git_Name%:%Git_Password%@%Git_Server%/%Git_Name%/%%~nxf.git
 	echo.
 	echo.
 	echo.
+	cd ..
 )
 cd %dir%
