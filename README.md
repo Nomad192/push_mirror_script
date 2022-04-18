@@ -13,3 +13,5 @@ example: (without a new window and with pause)
 cmd /c call up-to-date.bat m3133.ddns.net USERNAME PASSWORD
 pause
 ```
+
+Maybe there will be a .py script in the future
