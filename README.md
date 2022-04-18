@@ -1,4 +1,6 @@
 # Push mirror script
+So far only .bat (for win)
+
 ## Instruction
 Start with three arg
 1) first - Server address
