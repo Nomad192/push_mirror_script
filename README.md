@@ -5,4 +5,4 @@ Start with three arg
 2) second - Your git username
 3) third - Your git password
 
-example: `up-to-date.bat` `m3133.ddns.net` `Nomad` `PASSWORD`
+example: `up-to-date.bat` `m3133.ddns.net` `USERNAME` `PASSWORD`
