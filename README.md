@@ -17,5 +17,8 @@ cmd /c call up-to-date.bat m3133.ddns.net USERNAME PASSWORD
 pause
 ```
 
+## Attention
+Keep in mind that the script also sends local branches to the second server, which were deleted in the repository, but remained with you locally!
+
 ## Info
 Maybe there will be a .py script in the future
