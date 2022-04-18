@@ -18,8 +18,12 @@ echo.
 for /d %%f in (%dir%\*) do (
 	cd %%f
 	echo git repo "%%~nxf":
+	echo pull:
 	git pull
+	echo.
+	echo push mirror:
 	git push --mirror http://%Git_Name%:%Git_Password%@%Git_Server%/%Git_Name%/%%~nxf.git
+	echo.
 	echo.
 	echo.
 )
