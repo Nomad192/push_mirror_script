@@ -20,5 +20,9 @@ pause
 ## Attention
 Keep in mind that the script also sends local branches to the second server, which were deleted in the repository, but remained with you locally!
 
+This script will also try to send itself to your account: 
+1) you can store the turnip of this script also in your account
+2) or just ignore the error of sending to your account
+
 ## Info
 Maybe there will be a .py script in the future
