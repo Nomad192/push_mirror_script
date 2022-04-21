@@ -27,7 +27,7 @@ Keep in mind that the script also sends "all" branches to the second server, eve
 This script will also try to send itself to your account: 
 1) you can store the turnip of this script also in your account
 2) or just ignore the error of sending to your account
-3) 
+
 ---
 It is expected that you have the same named repositories on the first git server (`github`) and on the second (`m3133.ddns.net`) (and you didn't change the folder name)
 
