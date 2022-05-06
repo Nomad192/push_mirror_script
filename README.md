@@ -15,7 +15,7 @@ example: `up-to-date.bat` `m3133.ddns.net` `USERNAME` `PASSWORD`
 
 example: (without a new window and with pause) 
 ```cmd
-cmd /c call up-to-date.bat m3133.ddns.net USERNAME PASSWORD
+call up-to-date.bat m3133.ddns.net USERNAME PASSWORD
 pause
 ```
 
